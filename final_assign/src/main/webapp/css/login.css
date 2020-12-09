@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2020, 4:57:52 PM
+    Author     : efeliz
+*/
+
+* { margin: 0; padding: 0;}
+html, body {
+  height: 100%;
+  font: 100%/1.4 'Century Gothic', Verdana, sans-serif;
+  perspective: 50em;
+}
+p { padding: 1em; text-align: center; }
+.card {
+  position: relative;
+  margin: 5em auto;
+  width: 15em;
+  transform-style: preserve-3d;
+  transition: transform 1.5s linear;
+}
+
+.card .face {
+  position: absolute;
+  top: 0; right: 0; left: 0;
+  padding: .5em;
+  border-radius: .25em;
+  box-shadow: 1px 1px .3em;
+  
+  transform-style: preserve-3d;
+}
+
+.card h2 {
+  text-align: center;
+}
+.card input, .card button {
+  display: block;
+  margin: 1em auto;
+  border: none;
+  padding: .25em;
+  width: 90%;
+  border-radius: .25em;
+  font-size: 1em;
+}
+.card input[type=text] {
+  border-bottom: dashed 1px dimgrey;
+}
+.card .btn {
+  position: relative;
+  background: linear-gradient(gainsboro, grey);
+  text-shadow: 0 2px 0 white;
+  cursor: pointer;
+}
+.card input:focus, .card button:focus {
+  border-color: transparent;
+  outline: none;
+  box-shadow: 1px 1px .35em dodgerblue;
+}
+.card .btn:hover, .card .btn:focus {
+  background: linear-gradient(lightblue, dodgerblue);
+}
+.card .btn:active {
+  top: 1px;
+  background: linear-gradient(greenyellow, limegreen);
+}
