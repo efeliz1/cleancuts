@@ -2,7 +2,7 @@
 
 Local barbershop digital appointment management system design for hair service
 
-Buidling with HTML, CSS, JAVASCRIPT, BOOTSTRAP, JAVA, JSP, TOMCAT
+Buidling with HTML, CSS, JAVASCRIPT, BOOTSTRAP, JAVA, JSP, TOMCAT, MySQL
 
 [LIVE DEMO](http://159.89.229.0:8080/cleancuts/index.jsp)
 
